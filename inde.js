@@ -5,7 +5,7 @@ for(i in ip){
         op.push(ip[i])
        // console.log(ip[i]);
 }
-console.log(op);
+console.log(op);//[ 5, 10, 15, 25 ]
 
 
 var arr=["htmL","csS","javascrIPt","react","angulaR","nodE","EXPResS"];
@@ -15,7 +15,7 @@ for(i in arr){
         arr1.push(arr[i])
         //console.log(arr[i])
 }
-console.log(arr1);
+console.log(arr1);//[ 'htmL', 'csS', 'angulaR', 'nodE', 'EXPResS' ]
 
 
 var arr=["html","css","react","js","angular"];
@@ -25,4 +25,6 @@ for(i in arr){
         //console.log(arr[i].toUpperCase())
     arr2.push(arr[i].toUpperCase())
 }
-console.log(arr2);
+console.log(arr2);//HTML
+//REACT
+//ANGULAR
